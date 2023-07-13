@@ -1,4 +1,4 @@
-def main():
+def prepare_database_main():
     import sys 
     
     sys.path.append('python/function')
@@ -86,7 +86,3 @@ def main():
         
     else:
         print("Error! cannot create the database connection.")
-
-
-if __name__ == '__main__':
-    main()

@@ -1,4 +1,4 @@
-def main():
+def task_1_main():
     import sys 
     import pandas as pd
     
@@ -51,7 +51,4 @@ def main():
         print("Error! cannot create the database connection.")
 
 
-if __name__ == '__main__':
-    dataset_task_1 = main()
-    dataset_task_1.to_excel(r"output_file/dataset_task_1.xlsx", index = False)
 
